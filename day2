@@ -1,0 +1,40 @@
+    1  clear = clears the screen
+    2  cd .. = goes to the parent directory
+    3  cp firstfolder secondfolder = copy the files
+   4  cat > file1 = used to create the new file
+   5  rm file1 = removes the file
+   6  mkdir = used to create the new folder/directory
+   7  rmdir secondfolder = removes the folder
+   8  rm -r firstfolder = forcely removes the folder
+   9   man ls = details/ tutorials about the given command
+   10  mv file3 ./Doc = moves the file
+   11  echo hello pooja = print the string
+   12  touch file3 = creats a empty file
+   13  nano file4 = used to edit file
+   14  vim file5 = used to edit file
+   15  less <filename> = views the contents of the file
+   16  find file4 = finds the file/ locates it path
+   17  chmod 777 file3 = modify file's permission
+   18  whoami = displays the current user
+   19  chown user file3 = changes the owner of the file
+   20  uptime = displays the systems uptime and load average
+   21  gzip file3 = zip the file
+   22  gunzip file3 = unzip the file
+  23  grep "New" newFile = searches for the specific word
+  24  chown user file3 = change owner
+  25  date = displays the date
+  26  whoami = displays the user name
+  27 sleep = sleep for specified number of seconds
+  28 head = display first 10 lines of a file 
+  29 tail = displays last 10 lines of a file
+  30 tail -2 <filename> = displays the last 2 lines of a file
+
+ --------------Pipe & Grep----------------
+
+ 31 find . -size +10M = find file size greater than 10M
+ 32 find . -name *.pdf -size +5M = find the pdf files greater than 5M
+ 33 find . -size +5M | grep pdf = find files greater tham 5M using grep
+ 34 ls -p | grep -v / = display all the files
+ 35 env = display environment variables
+ 36 env | grep USER = using pipe to grep user variable
+  

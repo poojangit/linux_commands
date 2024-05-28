@@ -1,0 +1,14 @@
+    1  history = used to view the history of previously tyed commands
+    2  git --version  = check the verstion of git
+    3  ls = list all the files and folders in the directory
+    4  cd = to change the directory
+    5  ls -a = list all the files and folder including . and ..
+    6  la -A = list all the files and folders excluding . and ..
+    7  ls . = lists files and folders in the current directory
+   8  ls .. = lists files and folders in the parent directory
+   9  ls -la = lists the files and folders along with the hidden files in long format along with date and time
+   10  pwd = displays the current working directory
+   11  ls -l = lists all the files and folders excluding hidden files in long format along with date and time
+   12  mkdir Linux_Commands = mkdir used to create a folder
+   13  cd Linux_Commands = cd to change the directory to the specified folder
+   14  history > day1 = this will push the history to a new file
